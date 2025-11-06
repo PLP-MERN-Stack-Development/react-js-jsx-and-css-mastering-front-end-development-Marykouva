@@ -20,9 +20,10 @@ const Button = ({
   className = '',
   ...rest 
 }) => {
-  // Base classes
-  const baseClasses = 'inline-flex items-center justify-center font-medium rounded focus:outline-none focus:ring-2 focus:ring-offset-2 transition-colors';
-  
+  // ✅ Updated base classes with animation and scaling
+  const baseClasses =
+    "inline-flex items-center justify-center font-medium rounded focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-300 transform hover:scale-105";
+
   // Variant classes
   const variantClasses = {
     primary: 'bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-500',
@@ -66,4 +67,4 @@ Button.propTypes = {
   className: PropTypes.string,
 };
 
-export default Button; 
+export default Button;

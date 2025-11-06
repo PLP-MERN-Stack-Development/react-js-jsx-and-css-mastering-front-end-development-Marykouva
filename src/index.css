@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/*  Global Theme Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ✅ Base background and text */
+body {
+  @apply bg-gray-100 text-gray-900 transition-colors duration-300;
+}
+
+/* ✅ Apply dark mode to body when html has class="dark" */
+html.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* ✅ Smooth transitions for everything */
+* {
+  @apply transition-colors duration-300;
+}
