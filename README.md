@@ -61,8 +61,8 @@ npm run dev
 Open the app in your browser at http://localhost:5173 (or the URL displayed in terminal).
 
 Deployment
-Deployed via [GitHub Pages]:
-[]
+Deployed via [Vercel]:
+[https://react-js-jsx-and-css-mastering-front-28onrisfv.vercel.app/]
 
 Tech Stack
 React 18 + Vite
